@@ -239,7 +239,16 @@
         <h2 class="section-title">
             Our Services
         </h2>
+<div class="service-card">
 
+    <h3>Python Data Analysis</h3>
+
+    <p>
+        We use Python to clean, analyse and explore datasets,
+        helping businesses uncover patterns, trends and useful insights.
+    </p>
+
+</div>
         <div class="services">
 
             <div class="service-card">
