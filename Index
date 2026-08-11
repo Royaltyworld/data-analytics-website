@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Data Analytics Company</title>
+</head>
+
+<body>
+
+    <h1>Your Data Analytics Company</h1>
+
+    <h2>Turning Data Into Better Business Decisions</h2>
+
+    <p>
+        We help businesses understand their data, discover important insights,
+        and make better decisions using data.
+    </p>
+
+    <h2>Our Services</h2>
+
+    <ul>
+        <li>Excel Data Analysis</li>
+        <li>Power BI Dashboards</li>
+        <li>SQL Database Analysis</li>
+        <li>Business Reports</li>
+        <li>Data Visualization</li>
+    </ul>
+
+    <h2>Contact Us</h2>
+
+    <p>Email: your@email.com</p>
+
+</body>
+</html> 
