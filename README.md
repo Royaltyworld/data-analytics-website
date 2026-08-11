@@ -332,6 +332,75 @@
 
     <!-- About -->
 
+<!-- Portfolio -->
+
+<section id="portfolio">
+
+    <h2 class="section-title">
+        Our Portfolio
+    </h2>
+
+    <div class="services">
+
+        <div class="service-card">
+
+            <h3>School Data Analysis</h3>
+
+            <p>
+                Analysis of student performance, attendance,
+                subjects and school records to help schools
+                make better decisions.
+            </p>
+
+            <br>
+
+            <a href="#" class="button">
+                View Project
+            </a>
+
+        </div>
+
+
+        <div class="service-card">
+
+            <h3>Sales Performance Analysis</h3>
+
+            <p>
+                Analysis of sales data to identify top products,
+                sales trends, regional performance and opportunities
+                for business growth.
+            </p>
+
+            <br>
+
+            <a href="#" class="button">
+                View Project
+            </a>
+
+        </div>
+
+
+        <div class="service-card">
+
+            <h3>Employee Data Analysis</h3>
+
+            <p>
+                Analysis of employee information, departments,
+                salaries and performance to support better
+                workforce decisions.
+            </p>
+
+            <br>
+
+            <a href="#" class="button">
+                View Project
+            </a>
+
+        </div>
+
+    </div>
+
+</section> 
     <section class="about" id="about">
 
         <h2 class="section-title">
