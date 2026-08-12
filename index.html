@@ -1,15 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+
     <meta charset="UTF-8">
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Royal Data Solutions</title>
-
     <meta name="description"
-          content="Royal Data Solutions helps businesses turn data into better decisions.">
+        content="Royal Data Solutions provides professional data analysis, business intelligence, Excel, Power BI, SQL and Python data services.">
+
+    <meta name="keywords"
+        content="data analysis, data analyst, Power BI, Excel, SQL, Python, business intelligence">
+
+    <meta name="author" content="Royal Data Solutions">
+
+    <title>Royal Data Solutions | Data Analytics & Business Intelligence</title>
+
 
     <style>
+
+        /* ==============================
+           RESET
+        ============================== */
 
         * {
             margin: 0;
@@ -17,122 +30,253 @@
             box-sizing: border-box;
         }
 
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            color: #222;
-            background: #f5f7fa;
+        html {
+            scroll-behavior: smooth;
         }
 
-        /* NAVIGATION */
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            line-height: 1.6;
+            color: #1f2937;
+            background: #f5f7fb;
+        }
 
-        nav {
-            background: #071a3d;
+        a {
+            text-decoration: none;
+        }
+
+
+        /* ==============================
+           NAVIGATION
+        ============================== */
+
+        header {
+            background: #071a33;
             color: white;
-            padding: 20px 8%;
+            padding: 18px 7%;
             display: flex;
             justify-content: space-between;
             align-items: center;
             position: sticky;
             top: 0;
             z-index: 1000;
+            box-shadow: 0 3px 15px rgba(0,0,0,0.15);
         }
 
-        nav h2 {
-            color: white;
+        .logo {
+            font-size: 25px;
+            font-weight: bold;
         }
 
-        nav ul {
-            list-style: none;
+        .logo span {
+            color: #22c55e;
+        }
+
+        nav {
             display: flex;
-            gap: 25px;
+            gap: 24px;
         }
 
         nav a {
             color: white;
-            text-decoration: none;
             font-weight: bold;
+            font-size: 15px;
         }
 
         nav a:hover {
-            color: #00d9ff;
+            color: #22c55e;
         }
 
-        /* HERO */
+
+        /* ==============================
+           HERO
+        ============================== */
 
         .hero {
             min-height: 90vh;
             background: linear-gradient(
-                rgba(7, 26, 61, 0.9),
-                rgba(0, 74, 173, 0.85)
+                135deg,
+                #071a33,
+                #0b4778
             );
-
             color: white;
             display: flex;
             align-items: center;
-            padding: 60px 8%;
+            padding: 80px 7%;
         }
 
         .hero-content {
-            max-width: 750px;
+            max-width: 850px;
+        }
+
+        .hero-label {
+            color: #22c55e;
+            font-size: 18px;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 15px;
         }
 
         .hero h1 {
-            font-size: 55px;
-            margin-bottom: 20px;
+            font-size: 64px;
+            line-height: 1.1;
+            margin-bottom: 25px;
         }
 
-        .hero h3 {
-            font-size: 25px;
-            color: #00d9ff;
+        .hero h2 {
+            font-size: 30px;
+            font-weight: normal;
             margin-bottom: 20px;
         }
 
         .hero p {
             font-size: 19px;
-            margin-bottom: 30px;
+            max-width: 750px;
+            color: #e5edf5;
+            margin-bottom: 35px;
         }
 
         .button {
             display: inline-block;
-            background: #00d9ff;
-            color: #071a3d;
-            padding: 14px 25px;
+            background: #22c55e;
+            color: #071a33;
+            padding: 14px 26px;
             border-radius: 6px;
-            text-decoration: none;
             font-weight: bold;
             margin-right: 10px;
+            transition: 0.3s;
         }
 
         .button:hover {
+            transform: translateY(-3px);
             background: white;
         }
 
-        /* SECTIONS */
+        .button-outline {
+            display: inline-block;
+            border: 2px solid white;
+            color: white;
+            padding: 12px 24px;
+            border-radius: 6px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        .button-outline:hover {
+            background: white;
+            color: #071a33;
+        }
+
+
+        /* ==============================
+           GENERAL SECTIONS
+        ============================== */
 
         section {
-            padding: 80px 8%;
+            padding: 80px 7%;
         }
 
-        section h2 {
+        .section-title {
             text-align: center;
-            font-size: 35px;
-            margin-bottom: 40px;
-            color: #071a3d;
+            color: #071a33;
+            font-size: 38px;
+            margin-bottom: 15px;
         }
 
-        /* SERVICES */
+        .section-text {
+            text-align: center;
+            max-width: 800px;
+            margin: 0 auto 45px;
+            color: #64748b;
+            font-size: 18px;
+        }
+
+
+        /* ==============================
+           SERVICES
+        ============================== */
 
         .services {
             display: grid;
-            grid-template-columns: repeat(4, 1fr);
+            grid-template-columns: repeat(3, 1fr);
             gap: 25px;
+            max-width: 1200px;
+            margin: auto;
         }
 
-        .card {
+        .service-card {
             background: white;
-            padding: 30px;
+            padding: 35px 28px;
             border-radius: 10px;
-            box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+            box-shadow: 0 5px 20px rgba(0,0,0,0.07);
+            border-top: 4px solid #22c55e;
+            transition: 0.3s;
+        }
+
+        .service-card:hover {
+            transform: translateY(-6px);
+            box-shadow: 0 12px 30px rgba(0,0,0,0.12);
+        }
+
+        .icon {
+            font-size: 40px;
+            margin-bottom: 15px;
+        }
+
+        .service-card h3 {
+            color: #071a33;
+            font-size: 22px;
+            margin-bottom: 12px;
+        }
+
+        .service-card p {
+            color: #64748b;
+        }
+
+
+        /* ==============================
+           ABOUT
+        ============================== */
+
+        .about {
+            background: white;
+        }
+
+        .about-content {
+            max-width: 900px;
+            margin: auto;
             text-align: center;
-        } 
+        }
+
+        .about-content p {
+            font-size: 18px;
+            color: #475569;
+            margin-bottom: 20px;
+        }
+
+
+        /* ==============================
+           TECHNOLOGY
+        ============================== */
+
+        .technology {
+            background: #eef3f8;
+        }
+
+        .technology-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 20px;
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        .technology-card {
+            background: #071a33;
+            color: white;
+            padding: 25px;
+            border-radius: 8px;
+            text-align: center;
+            font-weight: bold;
+            font-size: 18 
